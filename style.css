@@ -1,0 +1,153 @@
+body {
+    background-image: url('pictures\background.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+  
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* 50% opacity black */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .reason-button {
+    background-color: #ffffff;
+    color: #333333;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    /*max-width: 100%;*/
+    width: 100%;
+  max-width: 400px; /* or any size you want */
+  height: auto;
+  }
+
+  /* Style the title */
+
+  
+  /* Style the reason container */
+
+  
+  /* Style the reason text */
+  .reason-text {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+
+  /* Hover effect for the reason button */
+
+
+  /* Style the title */
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 40px;
+    color: #ffffff;
+    text-shadow: 1px 1px #000000;
+    background-image: linear-gradient(120deg, #ff6b6b, #1f98e8);
+   /* -webkit-background-clip: text; */
+  /*  -webkit-text-fill-color: transparent; */
+  }
+  
+  /* Style the reason container */
+  .reason-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  /* Style the reason paragraph */
+.reason-paragraph {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 20px;
+    color: #444444;
+  }
+  
+  /* Style the buttons */
+  .reason-button {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #1f98e8;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .reason-button:hover {
+    background-color: #ff6b6b;
+    color: #ffffff;
+  }
+  
+  /* Center the image */
+  .reason-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
